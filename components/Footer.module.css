@@ -1,0 +1,27 @@
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #47555E;
+  color: #EEEEEE;
+  width: 100%;
+  max-height: 150px;
+  padding: 1rem;
+}
+
+.Logo {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.Adresse {
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.8rem;  
+}
+
+.Adresse > span {
+  font-weight: 500;
+  font-size: 1.1rem;
+  ;
+}
+

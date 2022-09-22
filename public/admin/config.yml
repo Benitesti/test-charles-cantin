@@ -1,8 +1,9 @@
+# local_backend: true
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
-media_folder: public/img
-public_folder: img
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: public/images/uploads
+public_folder: images/uploads
 collections:
   - name: "pages"
     label: "Pages"
@@ -12,11 +13,10 @@ collections:
       file: "content/home.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
+        - label: 'Pictures'
+          name: "pictures"
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Caption", name: "Caption", widget: "text"}

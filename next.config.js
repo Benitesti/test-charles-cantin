@@ -1,3 +1,5 @@
+
+/*
 module.exports = {
   webpack: (cfg) => {
       cfg.module.rules.push(
@@ -10,3 +12,4 @@ module.exports = {
       return cfg;
   }
 }
+*/

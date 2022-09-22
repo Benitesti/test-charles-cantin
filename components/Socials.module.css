@@ -1,0 +1,9 @@
+.Socials {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Socials > svg {
+  margin: 10px;
+}
