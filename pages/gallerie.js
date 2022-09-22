@@ -7,7 +7,7 @@ function importAll(r) {
   return images;
 }
 
-const pictures = Object.keys(importAll(require.context('../public/images/uploads', false, /\.(png|jpe?g)$/)))
+const pictures = Object.keys(importAll(require.context('../public/images/uploads/', false, /\.(png|jpe?g)$/)))
 
 const PictureGrid = (props) => {
   return (
