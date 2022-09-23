@@ -23,6 +23,7 @@ const Layout = props => (
       html, body, #__next {
         height: 100%;
         width: 100%;
+        font-size: 100%;
       }
 
       body {
