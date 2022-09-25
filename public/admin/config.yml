@@ -1,4 +1,4 @@
-# local_backend: true
+local_backend: true
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
@@ -8,15 +8,31 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
+    - label: "Gallerie"
+      name: "Gallerie"
+      file: "content/gallerie.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Pictures'
+        - label: "Pictures"
           name: "pictures"
           widget: list
           fields:
+            - label: "Photo"
+              name: "photo" 
+              widget: "image" 
+              media_library: 
+                config: 
+                  multiple: true
             - { label: "Name", name: "name", widget: "string"}
-            - { label: "Caption", name: "Caption", widget: "text"}
+            - label: "Catégories"
+              name: "categories"
+              widget: select
+              multiple: true
+              options: 
+                - { label: "Baptème", value: "bapt"}
+                - { label: "Bébé", value: "baby"}
+                - { label: "Famille", value: "fam"}
+                - { label: "Grossesse", value: "preg"}
+                - { label: "Mariage", value: "wed"}
+                - { label: "Portrait", value: "por"}

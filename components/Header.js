@@ -1,15 +1,33 @@
-import NavBar from "./NavBar";
-import Socials from "./Socials";
+
+import React, { useState } from "react";
+
+import Menu from "./Menu"
+import Socials from "./Socials"
+import Hamburger from "./Hamburger"
 import styles from "./Header.module.css"
 
-const Header = () => (
+
+
+const Header = () => {
+  const [isMenuExpanded, setIsMenuExpanded] = useState(false)
+
+  function handleClick() {
+    setIsMenuExpanded(!isMenuExpanded)
+  }
+  return (
   <div className={styles.Header}>
     <a href="/">
       <img className={styles.Logo} src="assets/logo-transparent.png" alt="logo"/>
-    </a>
-    <NavBar/>
+    </a> 
+    <Hamburger 
+      onClick ={handleClick}
+      expanded={isMenuExpanded}/>   
+    <Menu 
+      onClick={handleClick}
+      expanded={isMenuExpanded}/>
     <Socials className="align"/>
   </div>
-);
+  )
+}
 
-export default Header;
+export default Header
