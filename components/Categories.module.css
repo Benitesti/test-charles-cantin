@@ -1,0 +1,17 @@
+.Categories button {
+  border: none;
+  margin: 5px;
+  padding: 0.5rem;
+  background-color: #47555e;
+  font-family: inherit;
+  font-size: inherit;
+  color: #EEEEEE
+}
+
+.Categories button:hover {
+  background-color: #47555e81;
+}
+
+.Categories button.active {
+  background-color: #9fa6ab;
+}

@@ -30,9 +30,9 @@ collections:
               widget: select
               multiple: true
               options: 
-                - { label: "Baptème", value: "bapt"}
-                - { label: "Bébé", value: "baby"}
-                - { label: "Famille", value: "fam"}
-                - { label: "Grossesse", value: "preg"}
-                - { label: "Mariage", value: "wed"}
-                - { label: "Portrait", value: "por"}
+                - { label: "Baptème", value: "bapteme"}
+                - { label: "Bébé", value: "bebe"}
+                - { label: "Famille", value: "famille"}
+                - { label: "Grossesse", value: "grossesse"}
+                - { label: "Mariage", value: "mariage"}
+                - { label: "Portrait", value: "portrait"}
