@@ -1,4 +1,4 @@
-.Categories button {
+.CategoryButton {
   border: none;
   margin: 5px;
   padding: 0.5rem;
@@ -8,12 +8,10 @@
   color: #EEEEEE
 }
 
-.Categories>button.active {
-  background-color: #df2929;
-}
-
-.Categories button:hover {
-  /* background-color: #47555e81; */
+.CategoryButton:hover {
   opacity: 0.5;
 }
 
+.active {
+  background-color: #9fa6ab;
+}
