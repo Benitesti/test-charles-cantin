@@ -4,12 +4,6 @@ import styles from "./Categories.module.css"
 
 const Categories = ({ handleCategories, handleReset}) => {
 
-// const handleClick = (event) => {
-//   handleCategories(event)
-//   event.target.className.includes("active") ? event.target.className -= "active" : event.target.className += "active"
-//   console.log(event.target.className)
-// }
-
 return (
   <div >
     <CategoryButton onClick={handleCategories} value="mariage">Mariage</CategoryButton>

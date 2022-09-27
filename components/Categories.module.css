@@ -1,19 +1,1 @@
-.Categories button {
-  border: none;
-  margin: 5px;
-  padding: 0.5rem;
-  background-color: #47555e;
-  font-family: inherit;
-  font-size: inherit;
-  color: #EEEEEE
-}
-
-.Categories>button.active {
-  background-color: #df2929;
-}
-
-.Categories button:hover {
-  /* background-color: #47555e81; */
-  opacity: 0.5;
-}
 

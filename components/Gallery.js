@@ -35,7 +35,7 @@ const Gallery = ({ pictures }) => {
 
 
   return (
-  <div>
+  <div className={styles.Gallery}>
     <Categories handleCategories={handleCategories} handleReset={() => setPicturesFiltered([...pictures])}/>
     <PictureGrid displayedPictures={picturesFiltered}/>
   </div>

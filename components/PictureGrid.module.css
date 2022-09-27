@@ -1,0 +1,41 @@
+/* .PicturesGrid {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  height: 70vh;
+  padding: 2rem;
+  
+}
+
+.imgContainer {   
+  width: 20vw;
+  height: 20vh;
+  position: relative;
+  margin: 5px;
+}
+
+.Image{
+  width: auto;
+  height: 100%;
+} */
+
+.PicturesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+  grid-auto-rows: 200px;
+  grid-gap: 5px;
+  max-width: 80vw;
+  padding: 2rem;
+  
+}
+
+.imgContainer {   
+  position: relative;
+  margin: 5px;
+}
+
+.Image{
+  width: auto;
+  height: 100%;
+}
