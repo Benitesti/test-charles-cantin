@@ -12,10 +12,14 @@ const Gallery = ({ pictures }) => {
   const [picturesFiltered, setPicturesFiltered] = useState([...pictures])   
 
   useEffect(() => {
-
-    const filtered = pictures.filter((pic) => categories.includes(pic.categories[0]))
-    setPicturesFiltered(filtered)  
-  }, [categories])
+    let filtered = []
+    if (categories.length > 0) {
+    filtered = pictures.filter((pic) => categories.includes(pic.categories[0]))
+    } else {
+    filtered = pictures
+    }
+    setPicturesFiltered(filtered) 
+  }, [categories]) 
 
 
   const handleCategories = (e) => {
