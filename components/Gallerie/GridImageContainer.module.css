@@ -1,6 +1,7 @@
 .GridImageContainer {   
   position: relative;
   margin: 5px;
+  transition: 0.3 ease-in;
 }
 
 .Image{
