@@ -1,4 +1,4 @@
-import Layout from "../components/Layout"
+import Layout from "../components/Layout/Layout"
 
 const ContactView = props => <Layout>{`Contact View`}</Layout>
 

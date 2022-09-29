@@ -6,9 +6,10 @@ import { motion } from "framer-motion"
 import styles from "./GridImageContainer.module.css"
 
 const variants = {
-  expanded: { scale: 3, zIndex: 1000},
-  normal: { scale: 1},
-  hover: { scale: 0.9}
+  expanded: { scale: 3, zIndex: 1000} ,
+  normal: { scale: 1 },
+  hover: { scale: 0.9 },
+  duration: {transition: {duration: 3}}
 }
 
 const GridImageContainer = ({ img, blur, setBlur }) => {
@@ -32,9 +33,12 @@ const GridImageContainer = ({ img, blur, setBlur }) => {
     className={styles.GridImageContainer}
     variants={variants}
     animate={isExpanded ? "expanded" : "normal"}
-    transition={{ duration: 0.3}}
+    transition={{duration: 0.3}}
     onClick={handleClick}
-    {...(!isExpanded && {whileHover:"hover", whileTap: "hover", whileFocus: "hover"})}   //Disable the hover animation while the picture is expanded
+    {...(!isExpanded && 
+      {whileHover:"hover",
+       whileTap: "hover",
+       whileFocus: "hover"})}   //Disable the hover animation while the picture is expanded
     >
       <Image 
         className={styles.Image} 

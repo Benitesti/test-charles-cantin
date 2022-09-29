@@ -10,11 +10,6 @@ import styles from "./PictureGrid.module.css"
 const PictureGrid = ({ displayedPictures }) => {
 
   const [isBlurred, setIsBlurred] = useState(false)
-  const [isOutsideClick, setIsOutsideClick] = useState(false)
-  
-  const handleClick = () => {
-    setIsBlurred(!isBlurred)}
-  
 
 return (
   <div className={styles.container}>
@@ -29,10 +24,10 @@ return (
     </div>
     <motion.div 
       className={styles.blur} 
-      transition={{ duration: 0.5}} 
       initial={false}
       animate={{display: isBlurred ? "block" : "none"}}
-      onClick={handleClick}
+      transition={{ duration: 1}} 
+      onClick={() => setIsBlurred(!isBlurred)}
       />
   </div>  
   )

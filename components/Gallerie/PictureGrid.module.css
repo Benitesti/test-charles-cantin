@@ -14,9 +14,10 @@
 
 .blur {
   height: 100vh;
+  min-height: 100%;
   width: 100vw;
 
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

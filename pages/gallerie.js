@@ -1,7 +1,7 @@
 import content from "../content/gallerie.md"
 
-import Layout from "../components/Layout"
-import Gallery from "../components/Gallery"
+import Layout from "../components/Layout/Layout"
+import Gallery from "../components/Gallerie/Gallery"
 
 const { attributes: { title, pictures }} = content
 
