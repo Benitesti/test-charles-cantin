@@ -1,0 +1,67 @@
+
+.container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 2rem;
+}
+
+.contactText, .form {
+  max-width: 80%;
+}
+
+.contactText {
+  text-align: center;
+}
+
+.form { 
+  width: 60%;
+  min-height: 50%;
+  max-height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.button {
+  align-self: center;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin-top: 1rem;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.form input, .form textarea {
+  margin-top: 1rem;
+}
+
+.nameContainer > div {
+  width: 100%;  
+}
+
+
+@media screen and (min-width: 480px) {
+  .form .nameContainer {
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .form .nameContainer > div {
+    max-width: calc(50% - 5px);
+  }
+
+
+}
+

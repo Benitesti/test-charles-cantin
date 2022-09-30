@@ -12,8 +12,8 @@ collections:
       name: "Gallerie"
       file: "content/gallerie.md"
       fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Body", name: "body", widget: "markdown"}
+        - { label: "Titre", name: "title", widget: "string"}
+        - { label: "Corps", name: "corps", widget: "markdown"}
         - label: "Pictures"
           name: "pictures"
           widget: list
@@ -36,3 +36,9 @@ collections:
                 - { label: "Grossesse", value: "grossesse"}
                 - { label: "Mariage", value: "mariage"}
                 - { label: "Portrait", value: "portrait"}
+    - label: "Contact"
+      name: "Contact"
+      file: "content/contact.md"
+      fields: 
+        - { label: "Titre", name: "titre", widget: "string"}
+        - { label: "Corps", name: "corps", widget: "string"}

@@ -1,8 +1,4 @@
 ---
-titre: Test
-photos: images/uploads/0test.jpg
-categories:
-  - test
 title: GALLERIE
 pictures:
   - name: Test
