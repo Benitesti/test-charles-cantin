@@ -47,12 +47,19 @@
   margin-top: 1rem;
 }
 
+
+
 .nameContainer > div {
   width: 100%;  
 }
 
 
 @media screen and (min-width: 480px) {
+  
+  .form input {
+    height: 2rem;
+  }
+  
   .form .nameContainer {
     flex-direction: row;
     gap: 10px;

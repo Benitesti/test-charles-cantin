@@ -13,7 +13,6 @@ const GridImageContainer = ({ img, blur, setBlur }) => {
 
   useEffect(() => {
     setWindowSize(window.screen.width)
-    console.log(windowSize)
   })
 
   const variants = 
