@@ -25,11 +25,14 @@ const Contact = ({ titre, corps }) => {
       <form 
         className={styles.form} 
         name="contact" 
+        method="post"
         action="POST"
         encType="application/x-www-form-urlencoded" 
         data-netlify="true" 
+        data-netlify-honeypot="bot-field"
         onSubmit="submit"
         >
+        <input type="hidden" name="form-name" value="contact" />
         <div className={styles.nameContainer}>
           <div>
             <label for="firstName">Prénom: </label>
