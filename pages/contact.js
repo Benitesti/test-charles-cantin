@@ -5,8 +5,6 @@ import Contact from "../components/Contact/Contact"
 
 const { attributes: { titre, corps }} = content
 
-console.log(content)
-
 const ContactView = props => <Layout><Contact titre={titre} corps={corps}/></Layout>
 
 export default ContactView

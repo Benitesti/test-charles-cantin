@@ -8,7 +8,13 @@ const Contact = ({ titre, corps }) => {
         <h1>{titre}</h1>
         <p>{corps}</p>
       </div>
-      <form className={styles.form} name="contact" method="POST" data-netlify="true" onSubmit="submit">
+      <form 
+        className={styles.form} 
+        name="contact" 
+        method="POST"
+        encType="application/x-www-form-urlencoded" 
+        data-netlify="true" 
+        onSubmit="submit">
         <div className={styles.nameContainer}>
           <div>
             <label for="firstName">Prénom: </label>
