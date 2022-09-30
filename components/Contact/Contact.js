@@ -26,7 +26,6 @@ const Contact = ({ titre, corps }) => {
         className={styles.form} 
         name="contact" 
         method="post"
-        action="POST"
         encType="application/x-www-form-urlencoded" 
         data-netlify="true" 
         data-netlify-honeypot="bot-field"
