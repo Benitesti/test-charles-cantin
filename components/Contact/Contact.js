@@ -3,11 +3,11 @@ import styles from "./Contact.module.css"
 const Contact = ({ titre, corps }) => {
 
   return (
-    // <div className={styles.container}>
-    //   <div className={styles.contactText}>
-    //     <h1>{titre}</h1>
-    //     <p>{corps}</p>
-    //   </div>
+    <div className={styles.container}>
+      {/* <div className={styles.contactText}>
+        <h1>{titre}</h1>
+        <p>{corps}</p>
+      </div> */}
       <form 
         className={styles.form} 
         name="contact" 
@@ -32,7 +32,7 @@ const Contact = ({ titre, corps }) => {
           </div>  
           <div>
             <label for="message">Votre message </label>
-            <textarea name="message" rows="5"/>
+          <textarea name="message" rows="5"/>
         </div>                
         <button className={styles.button} type="submit">Envoyer</button>        
       </form>
