@@ -1,13 +1,27 @@
+import { useState, useEffect } from "react"
+
 import styles from "./Contact.module.css"
+import React from "react"
+
+
 
 const Contact = ({ titre, corps }) => {
 
+  const [hydrated, setHydrated] = useState(false);
+	  useEffect(() => {
+		setHydrated(true);
+	}, []);
+	if (!hydrated) {
+		// Returns null on first render, so the client and server match
+		return null;
+	}
+
   return (
     <div className={styles.container}>
-      {/* <div className={styles.contactText}>
+      <div className={styles.contactText}>
         <h1>{titre}</h1>
         <p>{corps}</p>
-      </div> */}
+      </div>
       <form 
         className={styles.form} 
         name="contact" 
