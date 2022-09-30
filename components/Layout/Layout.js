@@ -18,6 +18,9 @@ const Layout = props => (
     <style jsx global>{`
       * {
         box-sizing: border-box;
+        --primary-color: #47555e;
+        --secondary-color: #EEEEEE;
+        --header-height: 80px;
       }
 
       html, body, #__next {

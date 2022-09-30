@@ -4,7 +4,7 @@
   width: 60px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: inherit;
+  background-color: transparent;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -12,6 +12,7 @@
   left: 25px;
   transform: translateY(-50%);
   display: none;
+  z-index: 2;
 }
 .Hamburger:hover {
   background-color: #808080;

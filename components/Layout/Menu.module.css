@@ -17,6 +17,10 @@
 }
 
 
+.Menu {
+  z-index: 2;
+}
+
 .Menu a {
   text-decoration: none;
   color: inherit;

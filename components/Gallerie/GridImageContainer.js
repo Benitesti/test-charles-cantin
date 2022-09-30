@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import { useIsSmall } from "../../useMediaQuery"
 
 import Image from "next/image"
 import { motion } from "framer-motion"
@@ -19,11 +18,12 @@ const GridImageContainer = ({ img, blur, setBlur }) => {
 
   const variants = 
   { expanded: {
-      scale: windowSize / 350
-        // windowSize < 480 ? 1 : 
-        // windowSize < 820 ? 1.5 : 
-        // windowSize < 1200 ? 2 : 2.5, 
-      ,zIndex: 1000
+                                                      // windowSize / 350 ?
+      scale: 
+        windowSize < 480 ? 1 : 
+        windowSize < 820 ? 1.5 : 
+        windowSize < 1200 ? 2 : 2.5, 
+      zIndex: 1000
     },
     normal: { scale: 1 },
     hover: { scale: 0.9 },

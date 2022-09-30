@@ -4,13 +4,13 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  height: 80px;
+  min-height: var(--header-height);
   width: 100%;
 
   font-weight: bold;
-  color: white;
+  color: var(--secondary-color);
 
-  background-color: #47555e;
+  background-color: var(--primary-color);
 }
 
 .Logo {

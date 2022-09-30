@@ -1,0 +1,37 @@
+.Home {  
+  position: relative;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100%;
+
+  z-index: 1;
+}
+
+.background {
+  background-image: url("/assets/wedding-foto-pettine-IfjHaIoAoqE-unsplash.webp");
+  background-size: cover;
+  background-position: center;
+
+  height: calc(100vh + var(--header-height));
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  transform: translate(0, calc(-1 * var(--header-height)));
+
+  filter: brightness(50%);
+
+  z-index: 3;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-1 * (50% + var(--header-height))));
+  height: 20%;
+  z-index: 10;
+}

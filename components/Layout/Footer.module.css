@@ -1,10 +1,11 @@
 .Footer {
   display: flex;
   justify-content: center;
-  background-color: #47555E;
-  color: #EEEEEE;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   width: 100%;
   padding: 1rem;
+  z-index: 2;
 }
 
 .Container {
@@ -27,9 +28,6 @@
 }
 
 @media screen and (max-width: 820px) {
-  .Footer {    
-    min-height: 150px;
-  }
 
   .Container {
     flex-direction: column;

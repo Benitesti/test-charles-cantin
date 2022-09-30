@@ -10,6 +10,9 @@ const Menu = ({ onClick, expanded }) => (
     />  
     <ul>
       <li>
+        <a href="/">ACCUEIL</a>
+      </li>
+      <li>
         <a href="/gallerie">GALLERIE</a>
       </li>
       <li>
