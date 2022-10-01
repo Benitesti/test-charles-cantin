@@ -28,7 +28,6 @@ const Contact = ({ titre, corps }) => {
         method="post"
         encType="application/x-www-form-urlencoded" 
         data-netlify="true" 
-        data-netlify-honeypot="bot-field"
         onSubmit="submit"
         >
         <input type="hidden" name="form-name" value="contact" />
