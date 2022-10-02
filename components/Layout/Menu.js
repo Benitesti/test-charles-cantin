@@ -13,7 +13,7 @@ const Menu = ({ onClick, expanded }) => (
         <a href="/">ACCUEIL</a>
       </li>
       <li>
-        <a href="/gallerie">GALLERIE</a>
+        <a href="/galerie">GALERIE</a>
       </li>
       <li>
         <a href="/prestations">PRESTATIONS</a>
