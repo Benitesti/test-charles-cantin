@@ -1,48 +1,44 @@
 ---
-title: GALLERIE
-pictures:
-  - name: Test
-    photo: images/uploads/0test.jpg
-    categories:
-      - bapteme
-  - photo: images/uploads/baby-kelly-sikkema-If7eM-f7Ehg-unsplash.jpg
+title: GALERIE
+pictures:  
+  - photo: images/uploads/baby-kelly-sikkema-If7eM-f7Ehg-unsplash.webp
     name: bebe-1
     categories:
       - bebe
-  - photo: images/uploads/family-nathan-dumlao-wr3comvzjxu-unsplash.jpg
+  - photo: images/uploads/family-nathan-dumlao-wr3comvzjxu-unsplash.webp
     name: famille-1
     categories:
       - famille
-  - photo: images/uploads/portait-christian-buehner-ditylc26zvi-unsplash.jpg
+  - photo: images/uploads/portait-christian-buehner-ditylc26zvi-unsplash.webp
     name: portrait-1
     categories:
       - portrait
-  - photo: images/uploads/family-nathan-dumlao-4_mj1tbmk8a-unsplash.jpg
+  - photo: images/uploads/family-nathan-dumlao-4_mj1tbmk8a-unsplash.webp
     name: family-2
     categories:
       - famille
-  - photo: images/uploads/baby-joshua-reddekopp-qlfjkfbpppm-unsplash.jpg
+  - photo: images/uploads/baby-joshua-reddekopp-qlfjkfbpppm-unsplash.webp
     name: bebe-2
     categories:
       - bebe
-  - photo: images/uploads/baptism-547222_1920.jpg
+  - photo: images/uploads/baptism-547222_1920.webp
     name: bapteme-2
     categories:
       - bapteme
       - bebe
-  - photo: images/uploads/pregnancy-janko-ferlic-znvgl_pcf74-unsplash.jpg
+  - photo: images/uploads/pregnancy-janko-ferlic-znvgl_pcf74-unsplash.webp
     name: grossesse-1
     categories:
       - grossesse
-  - photo: images/uploads/baptism-jcentenor-pixabay-6848193_1920.jpg
+  - photo: images/uploads/baptism-jcentenor-pixabay-6848193_1920.webp
     name: Bapteme-3
     categories:
       - bapteme
-  - photo: images/uploads/family-osarugue-igbinoba-4ardiyvfhtm-unsplash.jpg
+  - photo: images/uploads/family-osarugue-igbinoba-4ardiyvfhtm-unsplash.webp
     categories:
       - famille
     name: Family-3
-  - photo: images/uploads/wedding-olivia-bauso-30uoqdm5qw0-unsplash.jpg
+  - photo: images/uploads/wedding-olivia-bauso-30uoqdm5qw0-unsplash.webp
     name: mariage-1
     categories:
       - mariage
