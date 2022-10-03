@@ -3,9 +3,7 @@
   height: 50%;
 }
 
-
 .Menu ul {
-  margin-left: -2rem;
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -18,7 +16,7 @@
 
 
 .Menu {
-  z-index: 2;
+  z-index: 4;
 }
 
 .Menu a {
@@ -31,12 +29,11 @@
 
 @media screen and (max-width: 820px) {
   .Menu {
-    position:absolute;
+    position: fixed;
     left: 0;
     min-width: min-content;
     height: 100vh;
     background-color: #EEEEEE;
-    z-index: 2;
     display: none;
   }
 
@@ -45,7 +42,7 @@
   }
   
   .Menu ul {
-    margin-top: 80px;
+    margin-top: 2rem;
     flex-direction: column;
     width: 100%;
     height: 50%;
@@ -56,14 +53,12 @@
   }
 
   .Menu ul li a {
-    color: #47555e;
+    color: var(--primary-color);
     font-size: 1.2rem;
   }
 
-  .Menu ul li:over {
+  .Menu ul li:hover {
     background-color: #47555e42;
   }
-
-  
 
 }

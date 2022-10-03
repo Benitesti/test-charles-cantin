@@ -24,8 +24,12 @@ const Header = () => {
       expanded={isMenuExpanded}/>   
     <Menu 
       onClick={handleClick}
-      expanded={isMenuExpanded}/>
-    <Socials className="align"/>
+      expanded={isMenuExpanded}/>      
+    <Socials/>
+    <div 
+      className={isMenuExpanded ? styles["blur"] + ' ' + styles["expanded"] : styles.blur}
+      onClick={handleClick}
+    /> 
   </div>
   )
 }
